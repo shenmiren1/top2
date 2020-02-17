@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "影投详情",
+  "onReachBottomDistance": 0,
+  "usingComponents": {
+    "ei-calendar": "/components/ei-calendar/ei-calendar"
+  }
+}

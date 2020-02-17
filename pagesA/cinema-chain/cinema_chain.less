@@ -1,0 +1,447 @@
+//  tab 头部点击
+.tab_haderr {
+	display: flex;
+	height: 60upx;
+	background-color: #ffffff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	view {
+		// width:2px;
+
+		width: 33%;
+		font-size: 28upx;
+		font-weight: 400;
+		color: rgba(33, 33, 33, 1);
+		text-align: center;
+		text {
+			display: inline-block;
+			height: 60upx;
+			line-height: 60upx;
+		}
+	}
+	.active {
+		color: rgba(240, 142, 45, 1);
+		border-bottom: 2upx solid rgba(240, 142, 45, 1);
+	}
+}
+// tab one
+.tab_one {
+	.bottomData {
+		.buttonB {
+			min-height: 100upx;
+			box-sizing: border-box;
+			// border: 1px solid red ;
+			display: flex;
+			// justify-content: space-around;
+			// line-height: 70upx;\
+			padding: 17upx 30upx 0 30upx;
+			.buttonB_ranking {
+				width: 70upx;
+				font-size: 24upx;
+				margin-top: 6upx;
+				color: rgba(0, 0, 0, 1);
+				display: flex;
+				justify-content: center;
+				align-items: center;
+			}
+			.buttonB_Headerson {
+				// line-height: 70upx;
+				width: 150upx;
+				display: flex;
+				align-items: center;
+				.buttonB_Headersn1 {
+					// line-height: 0;
+					font-size: 24upx;
+					margin-top: 6upx;
+					color: rgba(155, 155, 155, 1);
+				}
+				.buttonB_Headerson_name {
+					color: rgba(0, 0, 0, 1);
+					font-size: 26upx;
+					// width:80upx;
+					//  white-space:nowrap; text-overflow:ellipsis; -o-text-overflow:ellipsis; overflow:hidden;
+				}
+			}
+
+			.buttonB_Headerson_pf {
+				display: flex;
+				font-size: 24upx;
+				view {
+					width: 120upx;
+					text-align: center;
+					box-sizing: border-box;
+					color: rgba(0, 0, 0, 1);
+					font-weight: 500;
+					display: flex;
+					justify-content: center;
+					align-items: center;
+				}
+			}
+		}
+		.buttonB:nth-child(odd) {
+			// rgba(245, 245, 245, 1)
+			background-color: #fff;
+		}
+	}
+	// 底部
+	.bottom {
+		margin-top: 10upx;
+		font-size: 24upx;
+		font-weight: 400;
+		color: rgba(0, 0, 0, 1);
+		.buttonM {
+			height: 80upx;
+			display: flex;
+			// justify-content: ;
+			align-items: center;
+			background-color: rgba(245, 245, 245, 1);
+			padding: 0 0upx 0 30upx;
+			view {
+				// width: 185upx;
+				width: 120upx;
+				// text-align: center;
+				// flex: 1;
+				text-align: center;
+				&:nth-child(1) {
+					// width:
+					// flex: 2;
+					width: 70upx;
+					text-align: center;
+				}
+				&:nth-child(2) {
+					// width:
+					// flex: 2;
+					// width: 224 - 50upx;
+					width: 150upx;
+					text-align: left;
+				}
+				// width: 20%;
+				// border: 1px solid red;
+				// font-size: 22upx;/
+				// text-align: center/;
+				// line-height: 80upx;
+				// display: flex;
+				// align-items: flex-end;
+			}
+		}
+		.bottom_header {
+			display: flex;
+			justify-content: space-between;
+			padding: 0 30upx;
+			height: 97upx;
+			line-height: 97upx;
+
+			background-color: #ffffff;
+			view:nth-child(1) {
+				font-size: 32upx;
+				font-weight: 400;
+				color: rgba(0, 0, 0, 1);
+			}
+			// view:nth-child(2){
+			// 	font-size:24upx;
+			// 	font-weight:400;
+			// 	color:rgba(0,0,0,1);
+			// 	image{
+			// 		width: 24upx;
+			// 		height: 24upx;
+			// 		margin-right: 4upx;
+			// 	}
+			// }
+			.buttonHtow {
+				display: flex;
+				align-items: center;
+				image {
+					width: 24upx;
+					height: 24upx;
+					margin-right: 10upx;
+				}
+			}
+		}
+	}
+
+	// 中间部分
+	.tab_one_center {
+		padding-top: 14upx;
+		font-size: 24upx;
+		background-color: rgba(255, 255, 255, 1);
+		padding: 20upx 30upx 12upx 30upx;
+		//  中间 头部
+		.centerH {
+			display: flex;
+			justify-content: space-between;
+
+			image {
+				width: 22upx;
+				height: 15upx;
+				padding-left: 8upx;
+				padding-bottom: 2upx;
+			}
+			.centerH_jr {
+				padding-left: 40upx;
+			}
+			.centerService {
+				font-size: 24upx;
+				font-family: PingFangSC-Regular;
+				font-weight: 400;
+				color: rgba(240, 142, 45, 1);
+				display: flex;
+				align-items: center;
+				.form_radio {
+					width: 20upx;
+					height: 20upx;
+					margin-right: 4upx;
+					// transform: scale(0.7);
+					// border-radius:0% 0%;
+					// border: 0;
+				}
+			}
+		}
+
+		//  中间 中间部分
+		.centerM {
+			display: flex;
+			justify-content: space-between;
+			padding-top: 25upx;
+			image {
+				width: 16upx;
+				height: 16upx;
+			}
+			.money {
+				width: 100%;
+				text-align: center;
+				font-size: 60upx;
+				font-family: Arial-Black;
+				font-weight: 900;
+				color: rgba(240, 142, 45, 1);
+			}
+			.centerM_son {
+				display: flex;
+				align-items: center;
+				justify-content: center;
+
+				.centerM_tiem {
+					padding-left: 10upx;
+					image {
+						padding-left: 4upx;
+						width: 22upx;
+						height: 22upx;
+					}
+				}
+				.centerM_turnover {
+					// font-size: 20upx;
+					// font-family: Arial-Black;
+					font-weight: 400;
+					color: rgba(240, 142, 45, 1);
+					display: flex;
+					align-items: center;
+				}
+			}
+
+			.centerM-symbol {
+				padding-top: 45upx;
+				// font-size: 42upx;
+				// color: rgba(155, 155, 155, 1);
+				image {
+					width: 128upx;
+					height: 64upx;
+				}
+			}
+		}
+		// 中间部分底部
+		.centerFoot {
+			display: flex;
+			justify-content: space-between;
+			padding-top: 40upx;
+			.centerFoot_son {
+				text-align: center;
+				width: 166upx;
+				height: 80upx;
+				background: rgba(245, 245, 245, 1);
+				border-radius: 10upx;
+				box-sizing: border-box;
+				padding: 9upx 0;
+			}
+		}
+	}
+	// 搜索框 不固定样式
+	.tab_one_header_position {
+		position: fixed;
+		top: 0;
+		z-index: 10;
+		left: 200upx;
+	}
+	//  搜索框
+	.tab_one_header {
+		padding-top: 10upx;
+		background-color: #ffffff;
+		.input_search {
+			display: flex;
+			align-items: center;
+			width: 518upx;
+			height: 60upx;
+			box-sizing: border-box;
+			border-radius: 30upx;
+			background: rgba(245, 246, 248, 1);
+			margin-left: 124upx;
+			padding: 0 0 0 160upx;
+			font-size: 24upx;
+			font-weight: 400;
+			color: rgba(195, 192, 196, 1);
+		}
+		.tab_three_shu {
+			width: 2upx;
+			height: 30upx;
+			// border: 1px solid red;
+			background-color: rgba(195, 192, 196, 1);
+			position: absolute;
+			top: 86upx;
+			left: 231upx;
+		}
+		.tab_one_image {
+			width: 73upx;
+			height: 38upx;
+			position: absolute;
+			top: 86upx;
+			left: 143upx;
+		}
+		.tab_tow_image {
+			width: 30upx;
+			height: 30upx;
+			position: absolute;
+			top: 86upx;
+			left: 243upx;
+		}
+	}
+}
+
+// 日历样式
+/*  头部  tab*/
+.Data_select {
+	height: 1354upx;
+	width: 750upx;
+	background-color: #fff;
+	position: fixed;
+	// top: 50px;
+	z-index: 10000;
+}
+.Data_select scroll-view {
+	height: 100%;
+	background: #fff;
+}
+.only_year {
+	background: #fff;
+	height: 74upx;
+	line-height: 74upx;
+	border: 1px solid #e6e6e6;
+	padding-left: 20upx;
+	box-sizing: border-box;
+	border-bottom: none;
+}
+.Data_select {
+	height: 1354upx;
+	width: 750upx;
+	background-color: #fff;
+	position: fixed;
+	// top: 50px;
+	z-index: 10000;
+}
+.Data_select_header {
+	display: flex;
+	view {
+		width: 25%;
+		flex-direction: row;
+		background: #fff;
+		height: 70upx;
+		line-height: 70upx;
+		text-align: center;
+		font-size: 36upx;
+		// display: flex;
+		// align-items: center;
+	}
+	.active {
+		color: #dc2626;
+	}
+}
+.week .year_sel {
+	width: 180upx;
+	text-align: center;
+}
+
+.week .year_sel view {
+	height: 70upx;
+	line-height: 7upx;
+	border: 1px solid #e6e6e6;
+	border-left: none;
+	border-right: none;
+	scroll-view {
+		height: 100%;
+		background-color: 100%;
+	}
+}
+.year_sel .active {
+	background: #fff;
+	color: red;
+}
+.week,
+.month {
+	display: -webkit-flex;
+	/* Safari */
+	display: flex;
+	flex-direction: row;
+}
+.week .year_sel {
+	width: 180upx;
+	text-align: center;
+}
+
+.week .year_sel view {
+	height: 70upx;
+	line-height: 70upx;
+	border: 1px solid #e6e6e6;
+	border-left: none;
+	border-right: none;
+}
+
+.week .week_sel {
+	flex: 1;
+	background: #fff;
+}
+
+.week_sel view {
+	padding-left: 20upx;
+	box-sizing: border-box;
+	height: 74upx;
+	line-height: 74upx;
+	border: 1px solid #e6e6e6;
+}
+.month .year_sel {
+	width: 180upx;
+	text-align: center;
+}
+
+.month .year_sel view {
+	height: 70upx;
+	line-height: 70upx;
+	border: 1px solid #e6e6e6;
+	border-left: none;
+	border-right: none;
+}
+.year_sel .active {
+	background: #fff;
+	color: red;
+}
+.month .month_sel {
+	flex: 1;
+	background: #fff;
+}
+
+.month_sel view {
+	padding-left: 20upx;
+	box-sizing: border-box;
+	height: 74upx;
+	line-height: 74upx;
+	border: 1px solid #e6e6e6;
+}
+
+// 日历样式结束

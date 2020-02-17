@@ -1,0 +1,273 @@
+page {
+  background-color: #F5F5F5;
+}
+.headder {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+}
+.headder view {
+  width: 375rpx;
+  height: 60rpx;
+  font-size: 28rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  background: #fff;
+  border: 2rpx solid #f08e2d;
+  box-sizing: border-box;
+  color: #F08E2D;
+}
+.headder .active {
+  background-color: #F08E2D;
+  color: #fff;
+}
+.tab_one .title {
+  width: 750rpx;
+  height: 60rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  background: #ffffff;
+  box-shadow: 0px 2px 4px 0px #f5f5f5;
+}
+.tab_one .title view {
+  width: 375rpx;
+  height: 60rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  font-size: 28rpx;
+}
+.tab_one .title .actve {
+  color: #F08E2D;
+}
+.tab_one .center {
+  width: 750rpx;
+  margin-top: 10rpx;
+  margin-bottom: 10rpx;
+  background: #ffffff;
+  box-shadow: 0px 2px 4px 0px #f5f5f5;
+}
+.tab_one .center .center_time {
+  width: 750rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  color: #4A4A4A;
+  font-size: 24rpx;
+  font-family: PingFangSC-Medium, PingFang SC;
+  font-weight: 500;
+  padding-top: 25rpx;
+  padding-bottom: 36rpx;
+}
+.tab_one .center .center_data {
+  padding: 0 30rpx 30rpx 30rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+}
+.tab_one .center .center_data .center_data_data {
+  width: 212rpx;
+  height: 98rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+          flex-wrap: wrap;
+  background: #f5f5f5;
+  margin-right: 27rpx;
+}
+.tab_one .center .center_data .center_data_data:last-child {
+  margin-right: 0rpx;
+}
+.tab_one .center .center_data .center_data_data view {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.tab_one .center .center_data .center_data_data view:nth-child(1) {
+  font-size: 22rpx;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: #4a4a4a;
+}
+.tab_one .center .center_data .center_data_data view:nth-child(2) {
+  font-size: 28rpx;
+  font-family: PingFangSC-Medium, PingFang SC;
+  font-weight: 500;
+  color: #f08e2d;
+}
+.tab_one .Choice_data {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+}
+.tab_one .Choice_data view {
+  width: 187.5rpx;
+  height: 80rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  color: #4A4A4A;
+  font-size: 28rpx;
+  background-color: #fff;
+  margin-bottom: 10rpx;
+}
+.tab_one .Choice_data .active {
+  color: #F08E2D !important;
+}
+.tab_one .Choice_data .Choice_data_tow {
+  width: 375rpx;
+  height: 80rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  color: #4A4A4A;
+  font-size: 28rpx;
+  background-color: #fff;
+  margin-bottom: 10rpx;
+}
+.button {
+  margin-top: 12rpx;
+  background-color: #fff;
+  font-size: 24rpx;
+}
+.button .buttonH {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  padding: 28rpx 30rpx;
+}
+.button .buttonH .buttonHone {
+  font-size: 32rpx;
+}
+.button .buttonH .buttonHtow {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.button .buttonH .buttonHtow image {
+  width: 24rpx;
+  height: 24rpx;
+  margin-right: 10rpx;
+}
+.button .buttonM {
+  height: 80rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  background-color: #f5f5f5;
+  padding: 0 0rpx 0 30rpx;
+}
+.button .buttonM view {
+  width: 120rpx;
+  text-align: center;
+}
+.button .buttonM view:nth-child(1) {
+  width: 224rpx;
+  text-align: left;
+}
+.button .buttonB {
+  height: 100rpx;
+  box-sizing: border-box;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  padding: 17rpx 17rpx 0 30rpx;
+}
+.button .buttonB .buttonB_Headerson {
+  width: 240rpx;
+}
+.button .buttonB .buttonB_Headerson .buttonB_Headersn1 {
+  font-size: 24rpx;
+  margin-top: 6rpx;
+  color: #9b9b9b;
+}
+.button .buttonB .buttonB_Headerson .buttonB_Headerson_name {
+  color: #000000;
+  font-size: 26rpx;
+}
+.button .buttonB .buttonB_Headerson_pf {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  font-size: 24rpx;
+}
+.button .buttonB .buttonB_Headerson_pf view {
+  width: 120rpx;
+  text-align: center;
+  box-sizing: border-box;
+  margin-top: 25rpx;
+  color: #000000;
+  font-weight: 500;
+}
+.button .buttonB:nth-child(even) {
+  background-color: #f5f5f5;
+}
+.canvas_one .canvas_one_Written {
+  width: 750rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  padding-top: 23rpx;
+  padding-bottom: 40rpx;
+  font-size: 24rpx;
+  font-weight: 600;
+  background-color: #fff;
+}
+.charts {
+  width: 750rpx;
+  height: 500rpx;
+  background-color: #ffffff;
+}
+

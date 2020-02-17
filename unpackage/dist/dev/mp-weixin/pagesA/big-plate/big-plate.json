@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "排片上座",
+  "usingComponents": {
+    "tab-one": "/pagesA/big-plate/tab_one",
+    "tab-tow": "/pagesA/big-plate/tab_tow",
+    "tab-three": "/pagesA/big-plate/tab_three",
+    "tab-four": "/pagesA/big-plate/tab_four"
+  }
+}

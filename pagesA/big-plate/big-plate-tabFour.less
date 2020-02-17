@@ -1,0 +1,106 @@
+.tabfour{
+	// 前一天后一天
+	.tab_data {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		margin-bottom: 5upx;
+		height: 60upx;
+		font-size: 28upx;
+		font-weight: 400;
+		color: rgba(0, 0, 0, 1);
+		background: rgba(255, 255, 255, 1);
+		margin: 0 7upx;
+		
+	
+		image {
+			width: 15upx;
+			height: 22upx;
+			margin: 0 10upx;
+		}
+	
+		view {
+			font-size: 28upx;
+			font-weight: 400;
+			color: rgba(0, 0, 0, 1);
+		}
+		view:nth-child(2){
+			image {
+				width: 20upx;
+				height: 10upx;
+				margin-bottom: 5upx;
+			}
+		}
+	}
+	// 前一天后一天
+	// 地区选择开
+	.tabfour_city{
+		font-size:28upx;
+		font-weight:400;
+		color:rgba(0,0,0,1);
+		height: 60upx;
+		line-height: 60upx;
+		text-align: center;
+		background-color: #FFFFFF;
+		
+		image{
+			width: 19upx;
+			height: 15upx;
+			padding-left: 6upx;
+		}
+	}
+	.tabfour_data_header{
+		display: flex;
+		// justify-content: space-between;
+		font-size: 24upx;
+		height: 100upx;
+		line-height: 100upx;
+		padding: 0 10px;
+		
+		view:nth-child(1){
+			width: 350upx;
+		}
+		view:nth-child(2){
+			width: 200upx;
+		}
+		view:nth-child(3){
+			width: 200upx;
+		}
+	}
+	//  列表 展示
+	.tabfour_data{
+		
+		.tabfour_data_data{
+			display: flex;
+			height: 100upx;
+			// line-height: 100upx;
+			box-sizing: border-box;
+			font-size:30upx;
+			background-color: #fff;
+			padding:30upx  20upx 0 20upx;
+			
+			.tabfour_data_name{
+				// width: 50%;
+				width: 350upx;
+			}
+			.tabfour_data_szl{
+				width: 200upx;
+				view{
+					background-color:#F97902;
+					height: 10upx;
+				}
+			}
+			.tabfour_data_rc{
+				width: 200upx;
+				view{
+					background-color: #3E8EF2;
+					height: 10upx;
+				}
+			}
+			&:nth-child(2n){
+				background-color: #f5f5f5;
+			}
+		}
+		
+	}
+}

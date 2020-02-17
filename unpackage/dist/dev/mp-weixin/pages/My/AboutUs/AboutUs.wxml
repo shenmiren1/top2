@@ -1,0 +1,1 @@
+<view><view class="image_"><image src="../../../static/My/logo.jpg" mode></image></view><text class="conten" space="nbsp">{{''+strin_data+'拓普电影数据小程序是拓普咨询专为影视人搭载的一 款小程序数据产品，包含了影片票房、影院票房数据、排 片数据、舆情数据、影院院线、城市票仓地域数据、行业报告咨询等，随时查看您关注的电影信息。'}}</text><view class="bottom_data">当前V2.0版本</view></view>

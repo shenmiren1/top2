@@ -1,0 +1,33 @@
+page {
+  background: #ffffff;
+}
+.image_ {
+  padding: 121rpx 253rpx 137rpx 253rpx;
+}
+.image_ image {
+  width: 244rpx;
+  height: 244rpx;
+}
+.conten {
+  display: inline-block;
+  font-size: 26rpx;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: #c7c5c8;
+  padding: 0 50rpx;
+}
+.bottom_data {
+  width: 750rpx;
+  font-size: 26rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  font-weight: 400;
+  color: #c7c5c8;
+  position: fixed;
+  bottom: 140rpx;
+}
+

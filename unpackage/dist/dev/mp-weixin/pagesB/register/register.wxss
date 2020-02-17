@@ -1,0 +1,54 @@
+page {
+  background-color: #ffffff;
+}
+.yk_data {
+  padding-top: 40rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+}
+.yk_data view {
+  width: 500rpx;
+  height: 80rpx;
+  text-align: center;
+  line-height: 80rpx;
+  background: #f5f6f8;
+  border-radius: 4rpx;
+  font-size: 30rpx;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+}
+.getinor_data {
+  width: 500rpx;
+  height: 80rpx;
+  font-size: 30rpx;
+  font-weight: 400;
+  color: #ffffff;
+  background: -webkit-linear-gradient(225deg, #f97859 0%, #f08e2d 100%);
+  background: linear-gradient(225deg, #f97859 0%, #f08e2d 100%);
+  border-radius: 4px;
+}
+.getinor_data image {
+  width: 34rpx;
+  height: 30rpx;
+  margin-right: 20rpx;
+}
+.header {
+  text-align: center;
+  margin-top: 16.5vh;
+  margin-bottom: 33vh;
+}
+.header image {
+  width: 150rpx;
+  height: 150rpx;
+}
+.header .header_font {
+  font-size: 40rpx;
+  font-weight: 400;
+  color: #000000;
+  line-height: 56rpx;
+}
+

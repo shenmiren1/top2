@@ -1,0 +1,1 @@
+<view><view class="headder"><block wx:for="{{header_data}}" wx:for-item="item" wx:for-index="index" wx:key="index"><view data-event-opts="{{[['tap',[['heder_click',[index]]]]]}}" class="{{[index==haeder_index?'active':'']}}" bindtap="__e">{{''+item+''}}</view></block></view><tab-one vue-id="1" bind:__l="__l"></tab-one><tab-tow vue-id="2" bind:__l="__l"></tab-tow></view>

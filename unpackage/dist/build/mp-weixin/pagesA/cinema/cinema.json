@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "影院详情",
+  "usingComponents": {
+    "ei-calendar": "/components/ei-calendar/ei-calendar"
+  }
+}

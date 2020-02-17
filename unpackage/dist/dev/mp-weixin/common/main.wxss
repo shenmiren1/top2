@@ -1,0 +1,89 @@
+.city_xuan {
+  height: 80rpx;
+  line-height: 80rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  margin: 10rpx 0 10rpx 0;
+  background-color: #fff;
+}
+.city_xuan view {
+  width: 25%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  font-size: 28rpx;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: #4a4a4a;
+}
+.city_xuan .active {
+  color: #f08e2d;
+}
+/*每个页面公共css */
+.more {
+  position: fixed;
+  top: 0;
+  height: 100%;
+}
+.more .more_header {
+  height: 2000rpx;
+  background-color: rgba(0, 0, 0, 0.2);
+  position: fixed;
+}
+.more .more_index {
+  height: 450rpx;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #fff;
+}
+.more .more_index .more_index_header {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+          justify-content: flex-end;
+  padding: 20rpx;
+  font-size: 28rpx;
+  box-sizing: border-box;
+  border-bottom: 1px solid #ccc;
+}
+.more .more_index .more_index_data {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  -webkit-flex-wrap: wrap;
+          flex-wrap: wrap;
+  padding: 20rpx 20rpx;
+  padding-bottom: 100rpx;
+}
+.more .more_index .more_index_data view {
+  width: 28%;
+  border: 1px solid #f28f2d;
+  margin: 20rpx 20rpx 20rpx 0;
+  background-color: #fff;
+  padding: 10rpx 0;
+  margin-top: 5px;
+  text-align: center;
+  color: #000;
+  font-size: 28rpx;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.more .more_index .more_index_data .active {
+  background-color: #f28f2d;
+  color: #fff;
+}
+

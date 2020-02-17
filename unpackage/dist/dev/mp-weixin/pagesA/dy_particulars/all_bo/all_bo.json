@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "票房",
+  "usingComponents": {
+    "ei-calendar": "/components/ei-calendar/ei-calendar"
+  }
+}

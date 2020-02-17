@@ -1,0 +1,132 @@
+page{
+	background-color: #F5F5F5;
+}
+// T头部
+.headder{
+	display:flex;
+	view{
+		width: 750 / 2upx;
+		height: 60upx;
+		font-size: 28upx;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		background:#fff;
+		border:2upx solid rgba(240,142,45,1);
+		box-sizing: border-box;
+		color: #F08E2D;
+	}
+	.active{
+		background-color: #F08E2D;
+		color: #fff;
+	}
+}
+
+
+//  tab one
+.tab_one{
+	.title{
+		width:750upx;
+		height:60upx;
+		display: flex;
+		background:rgba(255,255,255,1);
+		box-shadow:0px 2px 4px 0px rgba(245,245,245,1);
+		
+		view{
+			width:750 / 2upx;
+			height:60upx;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			font-size: 28upx;
+		}
+		.actve{
+			color: #F08E2D;
+		}
+	}
+	.center{
+		width:750upx;
+		// height:220upx;
+		margin-top: 10upx;
+		margin-bottom: 10upx;
+		background:rgba(255,255,255,1);
+		box-shadow:0px 2px 4px 0px rgba(245,245,245,1);
+		
+		.center_time{
+			width:750upx;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			color: #4A4A4A;
+			font-size:24upx;
+			font-family:PingFangSC-Medium,PingFang SC;
+			font-weight:500;
+			padding-top: 25upx;
+			padding-bottom: 36upx;
+		}
+		.center_data{
+			padding: 0 30upx 30upx 30upx;
+			display: flex;
+			.center_data_data{
+				width: 212upx;
+				height: 98upx;
+				display: flex;
+				flex-wrap:wrap;
+				background:rgba(245,245,245,1);
+				margin-right:27upx;
+				&:last-child{
+					margin-right:0upx;
+				}
+				view{
+					width: 100%;
+					display: flex;
+					justify-content: center;
+					align-items: center;
+				
+				}
+				view:nth-child(1){
+					font-size:22upx;
+					font-family:PingFangSC-Regular,PingFang SC;
+					font-weight:400;
+					color:rgba(74,74,74,1);
+				}
+				view:nth-child(2){
+					font-size:28upx;
+					font-family:PingFangSC-Medium,PingFang SC;
+					font-weight:500;
+					color:rgba(240,142,45,1);
+				}
+			}
+		}
+	}
+	
+	.Choice_data{
+		display: flex;
+		view{
+			width: 750 / 4upx;
+			height: 80upx;
+			display: flex;
+			justify-content:  center;
+			
+			align-items: center;
+			color: #4A4A4A;
+			font-size: 28upx;
+			background-color: #fff;
+			margin-bottom: 10upx;
+		}
+		.active{
+			color: #F08E2D !important;
+		}
+		.Choice_data_tow{
+			width: 750 / 2upx;
+			height: 80upx;
+			display: flex;
+			justify-content:  center;
+			align-items: center;
+			color: #4A4A4A;
+			font-size: 28upx;
+			background-color: #fff;
+			margin-bottom: 10upx;
+		}
+	}
+}

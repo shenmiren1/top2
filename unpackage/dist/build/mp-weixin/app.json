@@ -1,0 +1,102 @@
+{
+  "pages": [
+    "pages/Home/Home",
+    "pages/Home/search",
+    "pages/report/report",
+    "pages/report/list/list",
+    "pages/My/My",
+    "pages/My-database/My-database",
+    "pages/showman/showman",
+    "pages/showman/map_particulars/tabone",
+    "pages/showman/map_particulars/tabtow",
+    "pages/showman/map_particulars/map_particulars",
+    "pages/report/list/re_list/re_list",
+    "pages/report/list/budget_data/budget_data",
+    "pages/report/webregister/webregister",
+    "pages/report/list/zc_tz/zc_tz",
+    "pages/My/helpTxt/helpTxt",
+    "pages/My/feedback/feedback",
+    "pages/My/AboutUs/AboutUs",
+    "pages/My/seletRole/seletRole"
+  ],
+  "subPackages": [
+    {
+      "root": "pagesA",
+      "pages": [
+        "big-plate/big-plate",
+        "big-plate/filmSchedule_tendency/filmSchedule_tendency",
+        "calendar/calendar",
+        "cinema/cinema",
+        "shadow/shadow",
+        "cinema_chain_list/cinema_chain_list",
+        "cinema-chain/cinema-chain",
+        "cinema-chain/search/search",
+        "dy_particulars/dy_particulars",
+        "dy_particulars/all_bo/all_bo",
+        "dy_particulars/all_bo/cityBrd_bo",
+        "dy_particulars/dy_particulars_list/dy_particulars_list",
+        "publicity/publicity",
+        "publicity/detail/detail",
+        "search_xq/search_xq"
+      ]
+    },
+    {
+      "root": "pagesB",
+      "pages": [
+        "data-bank/data-bank",
+        "forecast/forecast",
+        "list/list",
+        "market-data/market-data",
+        "register/register",
+        "register/register_phone/register_phone",
+        "data-bank/yp_list/yp_list",
+        "data-bank/yp_list/awards_s/awards_s",
+        "data-bank/yp_list/personage_zp/personage_zp",
+        "data-bank/company_xp/company_xp",
+        "data-bank/company_xp/list/list"
+      ]
+    }
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#FFFFFF",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#4A4A4A",
+    "selectedColor": "#F08E2D",
+    "backgroundColor": "#fff",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/Home/Home",
+        "iconPath": "./static/tabBer/office.png",
+        "selectedIconPath": "./static/tabBer/officecopy.png",
+        "text": "中国票房"
+      },
+      {
+        "pagePath": "pages/My/My",
+        "iconPath": "./static/tabBer/my.png",
+        "selectedIconPath": "./static/tabBer/my-copy.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "preloadRule": {
+    "pages/Home/Home": {
+      "network": "all",
+      "packages": [
+        "pagesA",
+        "pagesB"
+      ]
+    }
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于小程序位置接口的效果展示"
+    }
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap.json"
+}

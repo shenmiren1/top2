@@ -1,0 +1,367 @@
+page,
+page {
+  background-color: #f5f5f5;
+}
+page {
+  background-color: #f5f5f5;
+}
+.scroll-view_H {
+  white-space: nowrap;
+  height: 60rpx;
+  padding: 0 30rpx;
+  background-color: #fff;
+}
+.scroll-view_H view {
+  text-align: center;
+  font-size: 32rpx;
+  display: inline-block;
+  box-sizing: border-box;
+  width: 80rpx;
+  margin-right: 60rpx;
+  height: 90%;
+  line-height: 193%;
+}
+.uni-bg-red {
+  color: red;
+  border-bottom: 1px solid red;
+}
+.addSj {
+  height: 60rpx;
+  background-color: #fff;
+  margin-top: ;
+  margin: 17rpx 10rpx 0 10rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+}
+.addSj view {
+  padding-top: 10rpx;
+  text-align: center;
+  font-size: 26rpx;
+}
+.addSj image {
+  padding-top: 10rpx;
+  width: 40rpx;
+  height: 40rpx;
+}
+/* 遮罩层 */
+.uni-mask {
+  background: rgba(0, 0, 0, 0.3);
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  z-index: 9998;
+}
+/* 弹出层形式的广告 */
+.uni-banner {
+  width: 646rpx;
+  height: 954rpx;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  background: #fff;
+  border-radius: 10rpx;
+  z-index: 9999;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+.uni-banner .uni-bannerHeader {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+          justify-content: flex-end;
+  margin-right: 24rpx;
+  margin-top: 24rpx;
+}
+.uni-banner .uni-bannerHeader image {
+  width: 24rpx;
+  height: 24rpx;
+}
+.uni_bannerCenter .barnerHeader {
+  text-align: center;
+  font-size: 26rpx;
+  font-weight: 500;
+}
+.uni_bannerCenter .barnerHeaderx {
+  text-align: center;
+  font-size: 14rpx;
+  color: orange;
+  margin-top: 4rpx;
+}
+.uni_bannerCenter .barnerSum .barnerInput {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+}
+.uni_bannerCenter .barnerSum .barnerInput input {
+  width: 132rpx;
+  height: 30rpx;
+  font-family: PingFangSC-Regular;
+  font-weight: 400;
+  color: #4a4a4a;
+  line-height: 30rpx;
+  margin-top: 24rpx;
+  width: 453rpx;
+  background: #ffffff;
+  font-size: 22rpx;
+  border-radius: 2px;
+  border: 1px solid #585858;
+  box-sizing: border-box;
+  padding-left: 28rpx;
+  padding-bottom: 2rpx;
+}
+.uni_bannerCenter .barnerSum .barnerModel {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+}
+.uni_bannerCenter .barnerSum .barnerModel .barnerModel_typeface {
+  height: 28rpx;
+  font-family: PingFangSC-Regular;
+  font-weight: 400;
+  color: #000000;
+  line-height: 28rpx;
+  width: 453rpx;
+  margin: 26rpx 0 14rpx 30rpx;
+  margin-left: 0;
+  font-size: 20rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+}
+.uni_bannerCenter .barnerSum .barnerModel .barnerModel_typeface image {
+  width: 24rpx;
+  height: 24rpx;
+}
+.uni_bannerCenter .barnerSum .beingAbout {
+  padding-left: 96rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  font-size: 20rpx;
+  color: #ccc;
+  padding-bottom: 26rpx;
+}
+.uni_bannerCenter .barnerSum .beingAbout .beingAboutTow {
+  margin-left: 30rpx;
+}
+.uni_bannerCenter .barnerSum .beingAbout .showAbout {
+  width: 114rpx;
+  height: 36rpx;
+  text-align: center;
+  border-radius: 2px;
+  border: 2px solid #f08e2d;
+}
+.uni_bannerCenter .barnerSum .showing {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  margin: 0rpx 47rpx 0rpx 59rpx;
+  padding-left: 38rpx;
+  width: 450rpx;
+  font-size: 18rpx;
+  font-family: PingFangSC-Regular;
+  font-weight: 400;
+  color: #000000;
+  line-height: 25rpx;
+}
+.uni_bannerCenter .barnerSum .showing .checkbox {
+  width: 16rpx;
+  height: 16rpx;
+  -webkit-transform: scale(0.5);
+          transform: scale(0.5);
+}
+.uni_bannerCenter .barnerSum .showing view {
+  padding-left: 25rpx;
+}
+.uni_bannerCenter .barnerSum .showing:last-child {
+  padding-bottom: 51rpx;
+  border-bottom: 1px solid #ff979797;
+}
+.uni_bannerCenter .barnerSum .showing:nth-child(2) {
+  border-right: 1px solid red;
+  padding-top: 17rpx;
+  padding-bottom: 17rpx;
+}
+.uni_bannerCenter .barnerSum .showcolor {
+  width: 450rpx;
+  font-size: 18rpx;
+  font-family: PingFangSC-Regular;
+  font-weight: 400;
+  color: #f08e2d;
+  line-height: 25rpx;
+}
+.bottomTarget {
+  padding: 38rpx 96rpx 0 96rpx;
+}
+.bottomTarget .TargetHeader {
+  padding-bottom: 32rpx;
+  height: 37rpx;
+  font-size: 26rpx;
+  font-family: PingFangSC-Regular;
+  font-weight: 400;
+  color: #000000;
+  line-height: 37rpx;
+  text-align: center;
+}
+.bottomTarget .Targetcenter {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: space-around;
+          justify-content: space-around;
+  font-size: 22rpx;
+  padding-bottom: 18rpx;
+}
+.bottomTarget .Targetcenter .targetcenter_header {
+  box-sizing: border-box;
+  padding-top: 16rpx;
+  width: 132rpx;
+  height: 30rpx;
+  font-size: 22rpx;
+  font-family: PingFangSC-Regular;
+  font-weight: 400;
+  color: #000000;
+  line-height: 30rpx;
+}
+.bottomTarget .Targetcenter view {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+}
+.bottomTarget .Targetcenter view view input {
+  width: 254rpx;
+  height: 36rpx;
+  background: #ffffff;
+  border-radius: 2px;
+  box-sizing: border-box;
+  padding-left: 20rpx;
+  border: 2px solid #585858;
+  font-size: 16rpx;
+}
+.bottomTarget .Targetcenter view .targetcenter_bottom {
+  box-sizing: border-box;
+  padding-top: 16rpx;
+  padding-left: 11rpx;
+}
+.TargetBottom {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  margin-top: 28rpx;
+  height: 30rpx;
+  font-size: 22rpx;
+  font-family: PingFangSC-Regular;
+  font-weight: 400;
+  color: #4a4a4a;
+  line-height: 30rpx;
+}
+.TargetBottom view {
+  width: 33%;
+}
+.confirmButton {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  margin-top: 27rpx;
+}
+.confirmButton .confirm {
+  width: 56rpx;
+  height: 40rpx;
+  font-size: 28rpx;
+  font-family: PingFangSC-Regular;
+  font-weight: 400;
+  color: #ffffff;
+  line-height: 40rpx;
+  text-align: center;
+  width: 190rpx;
+  height: 50rpx;
+  background: -webkit-linear-gradient(225deg, #f97859 0%, #f08e2d 100%);
+  background: linear-gradient(225deg, #f97859 0%, #f08e2d 100%);
+  border-radius: 2px;
+}
+.reminder {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+}
+.reminder view {
+  width: 210rpx;
+  height: 14rpx;
+  font-size: 10rpx;
+  font-family: PingFangSC-Regular;
+  font-weight: 400;
+  color: #f08e2d;
+  line-height: 14rpx;
+}
+.filmGroup {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  width: 750rpx;
+  height: 60rpx;
+  background: #ffffff;
+  box-shadow: 0px 0px 4rpx 0px #dbd9dc;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  margin-top: 10rpx;
+}
+.filmGroup .filmGroup_name {
+  width: 144rpx;
+  height: 33rpx;
+  font-size: 24rpx;
+  font-family: PingFangSC-Medium;
+  font-weight: 500;
+  color: #4a4a4a;
+  line-height: 33rpx;
+}
+.filmGroup .filmGroup_office {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  font-size: 18rpx;
+  font-family: PingFangSC-Regular;
+  font-weight: 400;
+  color: #494949;
+  line-height: 25rpx;
+}
+.filmGroup .filmGroup_office .filmGroup_office_today {
+  margin-left: 57rpx;
+}
+.filmGroup .modificationData {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+}
+.filmGroup .modificationData view image {
+  width: 26rpx;
+  height: 26rpx;
+  margin-right: 22rpx;
+}
+

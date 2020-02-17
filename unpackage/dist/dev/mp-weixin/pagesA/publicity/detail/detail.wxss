@@ -1,0 +1,100 @@
+page {
+  background: #f5f5f5;
+}
+.header .header_bgc {
+  height: 112rpx;
+  width: 100%;
+  background-size: cover;
+  -webkit-filter: blur(30px);
+  filter: blur(12px);
+  background-position-y: 40%;
+}
+.header .header_data {
+  height: 228rpx;
+  position: relative;
+  background-color: #fff;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+}
+.header .header_data .header_data_All {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+          flex-wrap: wrap;
+}
+.header .header_data .header_data_All .header_data_name {
+  width: 100%;
+  font-size: 32rpx;
+  font-family: PingFangSC-Medium;
+  font-weight: 500;
+  color: #ffffff;
+  margin-top: -55rpx;
+  margin-left: 34rpx;
+}
+.header .header_data .header_data_All .header_data_data {
+  width: 100%;
+  margin-left: 34rpx;
+  font-size: 24rpx;
+  font-family: PingFangSC-Regular;
+  font-weight: 400;
+  color: #4a4a4a;
+  margin-top: 6rpx;
+}
+.header .header_data .header_data_img {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+}
+.header .header_data .header_data_img image {
+  margin-left: 30rpx;
+  width: 180rpx;
+  height: 270rpx;
+  margin-top: -70rpx;
+}
+.car {
+  width: 750rpx;
+  background-color: #FFFFFF;
+}
+.car .car_cah {
+  background-color: #fff;
+}
+.car .car_cah view {
+  width: 750rpx;
+  height: 50rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  background-color: #FFFFFF;
+}
+.button_fh {
+  position: relative;
+  top: 100px;
+  right: 0;
+}
+.qiun-charts {
+  width: 750rpx;
+  height: 500rpx;
+  background-color: #ffffff;
+}
+.charts_yx {
+  width: 750rpx;
+  height: 600rpx;
+  background-color: #ffffff;
+}
+.charts {
+  width: 750rpx;
+  height: 500rpx;
+  background-color: #ffffff;
+}
+

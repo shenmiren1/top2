@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "上映日历",
+  "usingComponents": {
+    "ei-calendar": "/components/ei-calendar/ei-calendar"
+  }
+}

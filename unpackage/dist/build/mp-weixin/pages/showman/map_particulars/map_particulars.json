@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "一键分析",
+  "usingComponents": {
+    "tab-one": "/pages/showman/map_particulars/tabone",
+    "tab-tow": "/pages/showman/map_particulars/tabtow"
+  }
+}

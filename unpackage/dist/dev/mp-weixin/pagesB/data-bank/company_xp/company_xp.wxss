@@ -1,0 +1,175 @@
+page {
+  background-color: #F5F5F5;
+}
+.company_message {
+  background-color: #FFFFFF;
+  padding: 0 30rpx;
+}
+.company_message .company_message_title {
+  font-size: 30rpx;
+  font-family: PingFangSC;
+  font-weight: 600;
+  color: #000000;
+  padding-top: 27rpx;
+  padding-bottom: 10rpx;
+  border-bottom: 2rpx solid #EEEEEE;
+}
+.company_message .company_message_bottom .company_message_bottom_data {
+  font-weight: 600;
+  font-size: 26rpx;
+  padding-top: 26rpx;
+}
+.company_message .company_message_bottom .company_message_bottom_data .data_xx {
+  font-weight: 400;
+}
+.father_production {
+  background-color: #fff;
+}
+.father_production .title {
+  margin: 0 30rpx 0 24rpx;
+}
+.father_production .father_production_data {
+  padding: 19rpx 30rpx 26rpx 30rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+}
+.father_production .father_production_data .father_production_data_movie {
+  font-size: 22rpx;
+  font-family: PingFangSC;
+  font-weight: 600;
+  color: #4a4a4a;
+  padding-left: 12rpx;
+}
+.father_production .father_production_data .father_production_data_movie:nth-child(1) {
+  padding-left: 0;
+}
+.father_production .father_production_data .father_production_data_movie image {
+  width: 164rpx;
+  height: 230rpx;
+}
+.father_production .father_production_data .father_production_data_movie view:nth-child(3) {
+  color: #F08E2D;
+}
+.father_production .title {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  border-bottom: 2rpx solid #EEEEEE;
+  padding: 27rpx 0 10rpx 0;
+}
+.father_production .title view:nth-child(1) {
+  font-size: 30rpx;
+  font-family: PingFangSC;
+  font-weight: 600;
+  color: #000000;
+}
+.father_production .title view:nth-child(2) {
+  font-size: 22rpx;
+  font-family: PingFangSC;
+  font-weight: 400;
+  color: #4a4a4a;
+}
+.father_production .title view:nth-child(2) image {
+  width: 9rpx;
+  height: 16rpx;
+  margin-left: 10rpx;
+}
+.header {
+  padding: 60rpx 30rpx 30rpx 30rpx;
+  background-color: #333333;
+}
+.header .father_view {
+  background-color: #979797;
+  padding: 0 10rpx;
+}
+.header .father_view .one {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+}
+.header .father_view .one:nth-child(2) {
+  border-bottom: 2rpx solid #8e8e8e;
+}
+.header .father_view .one .one_title {
+  width: 33%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-flex-wrap: wrap;
+          flex-wrap: wrap;
+  font-size: 20rpx;
+  font-family: PingFangSC;
+  font-weight: 400;
+  color: #ffffff;
+  margin: 16rpx 0;
+  border-left: 2rpx solid #8e8e8e;
+}
+.header .father_view .one .one_title:nth-child(1) {
+  border: 0;
+}
+.header .father_view .one .one_title view {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+}
+.header .father_view .title {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  padding: 17rpx 24rpx 20rpx 22rpx;
+  border-bottom: 2rpx solid #8e8e8e;
+}
+.header .father_view .title view:nth-child(1) {
+  font-size: 22rpx;
+  font-family: PingFangSC;
+  font-weight: 500;
+  color: #ffffff;
+}
+.header .father_view .title view:nth-child(2) {
+  font-size: 20rpx;
+  font-family: PingFangSC;
+  font-weight: 400;
+  color: #ffffff;
+}
+.header .father_view .title view:nth-child(2) image {
+  width: 16rpx;
+  height: 16rpx;
+}
+.header .header_one {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+}
+.header .header_one image {
+  width: 144rpx;
+  height: 148rpx;
+}
+.header .header_one .header_js {
+  color: #ffffff;
+  font-size: 24rpx;
+  padding-bottom: 47rpx;
+  margin-left: 16rpx;
+}
+.header .header_one .header_js view:nth-child(1) {
+  font-size: 36rpx;
+  font-family: PingFangSC;
+  font-weight: 600;
+}
+

@@ -1,0 +1,402 @@
+page {
+	background: rgba(245, 245, 245, 1);
+}
+// 顶部tab
+.header_tab {
+	white-space: nowrap; // 滚动必须加的属性
+	width: 100%;
+	height: 60upx;
+	background-color: #fff;
+	padding: 0 30upx;
+	box-sizing: border-box;
+	view {
+		font-size: 28upx;
+		width: 33%;
+		height: 60upx;
+		line-height: 60upx;
+		text-align: center;
+		font-weight: 400;
+		display: inline-block;
+		color: #4a4a4a;
+		box-sizing: border-box;
+		text{
+			display: inline-block;
+			height: 50upx;
+			line-height: 50upx;
+		}
+	}
+	.active {
+		color: rgba(240, 142, 45, 1);
+		border-bottom: 2upx solid rgba(240, 142, 45, 1);
+	}
+}
+.tabbone {
+	.bottom {
+		// 数据展示部分
+		.bottom_data {
+			.bottom_data_data {
+				display: flex;
+				font-size: 24upx;
+				min-height: 100upx;
+
+				&:nth-child(odd) {
+					background-color: #fff;
+				}
+				.bottom_data_header {
+					font-size: 28upx;
+					font-family: PingFangSC;
+					width: 90upx;
+					font-weight: 600;
+					color: rgba(0, 0, 0, 1);
+					display: flex;
+
+					align-items: center;
+					justify-content: center;
+					// margin-left: 44upx;
+					// margin-right: 50upx;
+					image {
+						width: 38upx;
+						height: 28upx;
+					}
+				}
+				// 公司榜单 样式和其他不一样因重写
+				.bottom_data_name_tow {
+					width: 150upx !important ;
+					display: flex;
+					flex-wrap: wrap;
+					align-items: center;
+					.bottom_data_name_three {
+						padding-top: 10upx;
+					}
+				}
+
+				// 公司榜单 累计票房
+				.bottom_data_init_tow {
+					width: 310upx !important;
+					justify-content: flex-end !important;
+				}
+				// 公司榜单 冠军影片
+				.bottom_data_mani_tow {
+					width: 130upx !important;
+					margin-left: 10px;
+					display: inline-block !important;
+					text-align: right;
+					display: flex !important;
+					align-items: center;
+				}
+
+				.bottom_data_name {
+					width: 310upx;
+					display: flex;
+					flex-wrap: wrap;
+					align-items: center;
+					padding: 17upx 0;
+					view:nth-child(1) {
+						width: 100%;
+						height: auto;
+						font-size: 24upx;
+						font-family: PingFangSC;
+						font-weight: 500;
+						// color:rgba(74,144,226,1);
+					}
+					view:nth-child(2) {
+						width: 100%;
+						height: auto;
+						font-size: 20upx;
+						font-family: PingFangSC;
+						// margin-top: -14upx;
+						font-weight: 400;
+						color: rgba(155, 155, 155, 1);
+					}
+				}
+				.bottom_data_init {
+					width: 140upx;
+					text-align: center;
+					display: flex;
+					align-items: center;
+				}
+				.bottom_data_mani_abs_tow{
+						margin-left: 60upx;
+				}
+				.bottom_data_mani_cid_tow{
+					margin-left: 60upx;
+
+				}
+				.bottom_data_mani {
+					display: flex;
+					align-items: center;
+					flex-wrap: wrap;
+					
+					width: 160upx;
+					justify-content: flex-end;
+					
+					view{
+						width: 100%;
+					
+					}
+				}
+			}
+		}
+		.bottom_header {
+			display: flex;
+			height: 80upx;
+
+			text-align: center;
+			.bottom_header_tow,
+			.bottom_header_tow_er,
+			.bottom_header_tow_three,
+			.bottom_header_tow_four,
+			.bottom_header_three,
+			.bottom_header_three_tow,
+			.bottom_header_five {
+				font-size: 24upx;
+				font-family: PingFangSC;
+				height: 80upx;
+				display: flex;
+				align-items: center;
+				font-weight: 400;
+				color: rgba(0, 0, 0, 1);
+				&:nth-child(1) {
+					width: 90upx;
+					display: flex;
+					align-items: center;
+					justify-content: center;
+				}
+				&:nth-child(2) {
+					width: 300upx;
+					text-align: left;
+				}
+				&:nth-child(3) {
+					text-align: left;
+					// margin-left: 230upx;
+					width: 103upx;
+					margin-right: 45upx;
+				}
+				&:nth-child(4) {
+					text-align: left;
+					width: 100upx;
+					// margin-right: 45upx;
+					margin-left: 70upx;
+				}
+			}
+			.bottom_header_five {
+				&:nth-child(2) {
+					width: 300upx;
+				}
+				&:nth-child(3) {
+					// text-align: left;
+					justify-content: center;
+					// margin-left: 230upx;
+					width: 173upx;
+					margin-right: 0upx;
+				}
+				&:nth-child(4) {
+					margin-left: 40upx;
+					width: 120upx;
+				}
+			}
+			.bottom_header_three_tow {
+				&:nth-child(2) {
+					width: 250upx;
+				}
+				&:nth-child(3) {
+					justify-content: center;
+					width: 220upx;
+					margin-right: 0upx;
+				}
+				&:nth-child(4) {
+					margin-left: 40upx;
+				}
+			}
+			.bottom_header_three {
+				&:nth-child(2) {
+					width: 300upx;
+				}
+				&:nth-child(3) {
+					// text-align: left;
+					justify-content: center;
+					// margin-left: 230upx;
+					width: 173upx;
+					margin-right: 0upx;
+				}
+				&:nth-child(4) {
+					margin-left: 40upx;
+				}
+			}
+			.bottom_header_tow_four {
+				&:nth-child(2) {
+					width: 250upx;
+				}
+				&:nth-child(3) {
+					// text-align: left;
+					justify-content: flex-end;
+					// margin-left: 230upx;
+					width: 173upx;
+					// margin-right: 45upx;
+				}
+				&:nth-child(4) {
+					text-align: right;
+					width: 100upx;
+					margin-left: 40upx;
+				}
+			}
+			.bottom_header_tow_three {
+				&:nth-child(3) {
+					text-align: left;
+					width: 103upx;
+					// margin-right: 45upx;
+					margin-left: 30upx;
+				}
+				&:nth-child(4) {
+					text-align: left;
+					// margin-left: 230upx;
+					width: 130upx;
+					margin-right: 45upx;
+					margin-left: 40upx;
+				}
+			}
+			.bottom_header_tow_er {
+				&:nth-child(3) {
+					text-align: left;
+					// margin-left: 230upx;
+					width: 133upx;
+					margin-right: 45upx;
+				}
+				&:nth-child(4) {
+					text-align: left;
+					width: 140upx;
+					// margin-right: 45upx;
+					margin-left: 10upx;
+				}
+			}
+			.bottom_header_one {
+				font-size: 24upx;
+				font-family: PingFangSC;
+				height: 80upx;
+				line-height: 80upx;
+				font-weight: 400;
+				color: rgba(0, 0, 0, 1);
+				&:nth-child(1) {
+					width: 90upx;
+					display: flex;
+					align-items: center;
+					justify-content: center;
+				}
+				&:nth-child(2) {
+					width: 300upx;
+					text-align: left;
+				}
+				&:nth-child(3) {
+					text-align: left;
+					// margin-left: 230upx;
+					width: 140upx;
+					margin-right: 45upx;
+				}
+			}
+		}
+	}
+	
+	
+	
+	
+	
+	.center_tab {
+		display: flex;
+		height: 60upx;
+		width: 750upx;
+		margin-top: 10upx;
+		background-color: #fff;
+		padding: 0 30upx;
+		
+		box-sizing: border-box;
+		// 公司榜tab
+		.center_tab_four {
+			white-space: nowrap; // 滚动必须加的属性
+			height: 60upx;
+			width: 750upx;
+			font-size: 28upx;
+			font-family: PingFangSC;
+			font-weight: 400;
+			color: #4a4a4a;
+			view {
+				width: 210upx;
+				height: 60upx;
+				box-sizing: border-box;
+				display: inline-block;
+				text-align: center;
+				line-height: 60upx;
+				text{
+					display: inline-block;
+					height: 50upx;
+					line-height: 50upx;
+				}
+			}
+			.active {
+				color:#F08E2D;
+				border-bottom: 2upx solid #F08E2D;
+			}
+		}
+		.center_tab_three {
+			height: 60upx;
+
+			font-size: 28upx;
+			width: 130upx;
+			box-sizing: border-box;
+			line-height: 60upx;
+			text-align: center;
+			font-family: PingFangSC;
+			font-weight: 400;
+
+			color: #4a4a4a;
+			text{
+				display: inline-block;
+				height: 50upx;
+				line-height: 50upx;
+			}
+		}
+		.center_tab_tow {
+			height: 60upx;
+
+			font-size: 28upx;
+			width: 200upx;
+			box-sizing: border-box;
+			line-height: 60upx;
+			text-align: center;
+			font-family: PingFangSC;
+			font-weight: 400;
+
+			color: #4a4a4a;
+			text{
+				display: inline-block;
+				height: 50upx;
+				line-height: 50upx;
+			}
+		}
+		.center_tab_one {
+			height: 60upx;
+
+			font-size: 28upx;
+			width: 140upx;
+			box-sizing: border-box;
+			line-height: 60upx;
+			text-align: center;
+			font-family: PingFangSC;
+			font-weight: 400;
+
+			color: #4a4a4a;
+			text{
+				display: inline-block;
+				height: 50upx;
+				line-height: 50upx;
+			}
+			&:nth-child(1) {
+				margin-left: 30upx;
+			}
+		}
+
+		.active {
+		color:#F08E2D;
+		border-bottom: 2upx solid #F08E2D;
+		}
+	}
+}

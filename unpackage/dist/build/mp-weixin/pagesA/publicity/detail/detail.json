@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "营销宣传",
+  "usingComponents": {
+    "uc-harts": "/components/ucharts_dome/publicity_cavas",
+    "ei-calendar": "/components/ei-calendar/ei-calendar"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "排片上座",
+  "usingComponents": {
+    "ei-calendar": "/components/ei-calendar/ei-calendar"
+  }
+}

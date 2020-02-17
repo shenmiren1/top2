@@ -1,0 +1,516 @@
+//城市选择
+.city_sel_jg_one {
+	width: 750upx;
+	height: 100%;
+	position: fixed;
+	// top: 0;
+	left: 0;
+	z-index: 10;
+	background-color: #f5f5f5;
+	// 叉号 关闭
+	.page__view_cha {
+		height: 60upx;
+		padding-right: 20upx;
+		background: rgba(255, 255, 255, 1);
+		display: flex;
+		justify-content: flex-end;
+	}
+	.city_sel_jg_one_header {
+		display: flex;
+		.active {
+			background-color: #f08e2d;
+			color: #ffffff;
+		}
+		view {
+			width: 250upx;
+			height: 80upx;
+			background: rgba(247, 247, 247, 1);
+			font-size: 30upx;
+			font-weight: 400;
+			color: rgba(109, 114, 120, 1);
+			line-height: 80upx;
+			text-align: center;
+		}
+	}
+	.page__bd_one {
+		// padding: 0 20upx;
+		// margin: 0 32upx;
+
+		.alphanet-selector {
+			position: absolute;
+			top: 16upx;
+			right: 0;
+			height: 1334upx;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+			z-index: 1000;
+			box-sizing: border-box;
+			.selector-one {
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				font-size: 24upx;
+				color: #43c1f4;
+				// padding: 0upx 10upx;
+				// height: 24upx;
+				height: 35upx;
+			}
+		}
+		//  热门城市
+		.page__bd_r {
+			.weui-grids {
+				display: flex;
+				flex-wrap: wrap;
+				margin: 0 32upx;
+				.weui-grid {
+					width: 208upx;
+					height: 80upx;
+					line-height: 80upx;
+					text-align: center;
+					font-size: 28upx;
+					background: rgba(255, 255, 255, 1);
+					border-radius: 4upx;
+					border: 1upx solid rgba(238, 238, 238, 1);
+					margin-right: 20upx;
+					margin-bottom: 20upx;
+					&:nth-child(3),
+					&:nth-child(6) {
+						margin-right: 0upx;
+					}
+					.active {
+						color: #f08e2d;
+						border: 1upx solid #f08e2d;
+					}
+				}
+			}
+		}
+		// 字母和字母下的城市
+		.alphabet_data {
+			.alphabet-list {
+				// 字母
+				.section-item {
+					.section-item-header {
+						display: flex;
+						align-items: center;
+						font-size: 28upx;
+						font-weight: 400;
+						color: rgba(51, 51, 51, 1);
+						// background-color: #f2f4f5;
+						padding: 4upx 20upx;
+						height: 55upx;
+						line-height: 55upx;
+					}
+
+					.ection-item-header {
+					}
+				}
+
+				// 城市
+				.section-item-cells_one {
+					.section-item-cell {
+						height: 80upx;
+						font-size: 28upx;
+						font-weight: 400;
+						color: rgba(51, 51, 51, 1);
+						line-height: 80upx;
+						background: rgba(255, 255, 255, 1);
+						padding-left: 27upx;
+					}
+					.activeaaaa {
+						color: #f08e2d;
+					}
+					.border-bottom {
+						border-bottom: 1upx solid #dbdbdb;
+					}
+				}
+			}
+		}
+	}
+	.page__view {
+		height: 1334upx;
+		.page_view_one_soso {
+			position: relative;
+			// top: 200upx;
+
+			background-color: rgba(245, 245, 245, 1);
+			height: 100%;
+			//  单条数据还没有写
+			view {
+				background-color: #ffffff;
+				font-size: 30upx;
+				padding-left: 80upx;
+			}
+		}
+
+		// 搜索框
+		.page__view_input {
+			height: 92upx;
+			box-sizing: border-box;
+			padding: 16upx 18upx;
+			background: rgba(255, 255, 255, 1);
+			position: relative;
+			input {
+				// border: ;
+				background: #f5f5f5;
+				font-size: 30upx;
+				border-radius: 2upx;
+				color: rgba(156, 156, 157, 1);
+				height: 60upx;
+				padding-left: 68upx;
+			}
+			image {
+				position: absolute;
+				width: 28upx;
+				height: 28upx;
+				top: 33upx;
+				left: 40upx;
+			}
+		}
+		.title {
+			font-size: 26upx;
+			color: #333;
+			padding: 20upx 0;
+			padding-left: 20upx;
+		}
+		.active {
+			color: #f08e2d;
+			border: 1px solid #f08e2d;
+		}
+		.page__view_city {
+			width: 208upx;
+			height: 80upx;
+			line-height: 80upx;
+			text-align: center;
+			background: rgba(255, 255, 255, 1);
+			border-radius: 4upx;
+			// border:1upx solid rgba(238,238,238,1);
+			font-size: 28upx;
+			font-weight: 400;
+			margin-left: 32upx;
+		}
+		.active_one {
+			border: 2upx solid rgba(239, 141, 45, 1);
+			color: rgba(239, 141, 45, 1);
+		}
+	}
+}
+
+.center_sessionss {
+	position: absolute;
+	top: 430upx;
+	width: 750upx;
+	z-index: 2000;
+	.center_frame_hj,
+	.center_frame_quan {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		height: 100upx;
+		background: rgba(255, 255, 255, 1);
+		box-shadow: 0px 2upx 4upx 0upx rgba(219, 217, 220, 1);
+		border: 1px solid #dddddd;
+		padding: 0 50upx 0 30upx;
+	}
+	.active {
+		color: rgba(240, 142, 45, 1);
+	}
+	view {
+		font-size: 26upx;
+		color: rgba(74, 74, 74, 1);
+
+		image {
+			width: 24upx;
+			height: 24upx;
+		}
+	}
+}
+// 等下删 弹出场次时段 没哟用
+
+.tabThreecenter_frame {
+	position: absolute;
+	top: 430upx;
+	width: 750upx;
+	z-index: 2000;
+	.center_frame_hj,
+	.center_frame_quan {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		height: 100upx;
+		background: rgba(255, 255, 255, 1);
+		box-shadow: 0px 2upx 4upx 0upx rgba(219, 217, 220, 1);
+		border: 1px solid #dddddd;
+		padding: 0 50upx 0 30upx;
+	}
+	.active {
+		color: rgba(240, 142, 45, 1);
+	}
+	view {
+		font-size: 26upx;
+		color: rgba(74, 74, 74, 1);
+
+		image {
+			width: 24upx;
+			height: 24upx;
+		}
+	}
+}
+
+.tabthreeHeader {
+	// position: absolute;
+	// top: 60upx;
+	.tabthreeHeader_one {
+		// position: absolute;
+		z-index: 1;
+		display: flex;
+		padding: 0 50upx;
+		background-color: rgba(255, 255, 255, 1);
+		box-shadow: 0upx 2upx 4upx 0upx rgba(219, 217, 220, 1);
+		font-size: 28upx;
+		font-weight: 400;
+
+		height: 60upx;
+		line-height: 60upx;
+		justify-content: space-between;
+		box-sizing: border-box;
+		width: 750upx;
+		overflow: hidden;
+		.active {
+			color: #f08e2d;
+		}
+	}
+	// .tabthreeHeader_all {
+	// 	width: 750upx;
+	// 	height: 1300upx;
+	// 	position: fixed;
+	// 	top: 0;
+	// 	right: 0;
+	// 	bottom: 0;
+	// 	left: 0;
+	// 	background-color: rgba(0, 0, 0, 0.2);
+	// }
+}
+.tabthreeHeader .active {
+	color: rgba(240, 142, 45, 1);
+}
+.tabthree {
+	.tab_data {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		margin-bottom: 5upx;
+		height: 60upx;
+		font-size: 28upx;
+		font-weight: 400;
+		color: rgba(0, 0, 0, 1);
+		background: rgba(255, 255, 255, 1);
+		margin: 0 7upx;
+
+		image {
+			width: 15upx;
+			height: 22upx;
+			margin: 0 10upx;
+		}
+
+		view {
+			font-size: 28upx;
+			font-weight: 400;
+			color: rgba(0, 0, 0, 1);
+		}
+		view:nth-child(2) {
+			image {
+				width: 20upx;
+				height: 10upx;
+				margin-bottom: 5upx;
+			}
+		}
+	}
+	// 总场次
+	.tabthree_number {
+		width: 100%;
+		height: 120upx;
+		background-color: #fff;
+		text-align: center;
+		margin-top: 10upx;
+		// line-height: 120upx;
+		display: flex;
+		flex-wrap: wrap;
+		align-items: center;
+
+		.total_number {
+			width: 100%;
+			font-size: 28upx;
+			color: rgba(0, 0, 0, 1);
+			padding-top: 30upx;
+		}
+		.tabthree_item {
+			width: 100%;
+			font-size: 24upx;
+			color: rgba(155, 155, 155, 1);
+			padding-bottom: 10upx;
+		}
+	}
+	// 时段
+	.tabthree_data {
+		.region {
+			height: 100upx;
+			background: rgba(255, 255, 255, 1);
+			box-shadow: 0px 2upx 4upx 0upx rgba(219, 217, 220, 1);
+			display: flex;
+			justify-content: space-between;
+			box-sizing: border-box;
+			padding: 0 50upx;
+			margin-top: 10upx;
+			margin-bottom: 10upx;
+			border: 1px solid rgba(219, 217, 220, 1);
+			view {
+				display: flex;
+				align-items: center;
+				font-size: 24upx;
+				font-weight: 400;
+				color: rgba(0, 0, 0, 1);
+
+				image {
+					width: 18upx;
+					height: 18upx;
+					margin-left: 10upx;
+				}
+			}
+		}
+	}
+	// <!-- 当前饮片的名字 和 评分 -->
+	.tabthree_name {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		height: 100upx;
+		background-color: #fff;
+		padding: 0 30upx;
+		margin-bottom: 17upx;
+		z-index: -100;
+		.tabthree_name_name {
+			// display: flex;
+			view:nth-child(1) {
+				font-size: 30upx;
+				font-weight: 400;
+				color: rgba(0, 0, 0, 1);
+				padding-top: 10upx;
+			}
+			.tabtow_name_name_tow {
+				// display: flex;
+				font-size: 24upx;
+				font-weight: 400;
+				color: rgba(240, 142, 45, 1);
+				margin-top: 8upx;
+				// margin-left: 12upx;
+			}
+		}
+		.tabthree_name_but {
+			height: 100%;
+			width: 100upx;
+			display: flex;
+			align-items: center;
+			justify-content: flex-end;
+			image {
+				width: 15upx;
+				height: 22upx;
+				// padding-top: 40upx;
+			}
+		}
+		.tabthree_name_jiao {
+			position: absolute;
+			top: -20upx;
+			left: 350upx;
+			z-index: 10;
+			width: 0;
+			height: 0;
+			border-right: 20upx solid transparent;
+			border-bottom: 20upx solid black;
+			border-left: 20upx solid transparent;
+		}
+	}
+	// 地域排场 省份 票仓 城市
+	.tabthree_button {
+		height: 100%;
+		.tabthree_button_data {
+			background-color: #fff;
+
+			.tabtow_button_data_iew {
+				display: flex;
+				// border-bottom: 1px solid rgba(219, 217, 220, 1);
+				min-height: 90upx;
+				// line-height: 90upx;
+				align-items: center;
+				font-size: 24upx;
+				// font-weight: 400;
+				color: rgba(0, 0, 0, 1);
+				// margin: 0 38upx;
+				padding: 0 38upx;
+				&:nth-child(even) {
+					background-color: #f5f5f5;
+				}
+				view:nth-child(1) {
+					width: 250upx;
+					font-size: 26upx;
+				}
+				view:nth-child(2) {
+					display: flex;
+					justify-content: flex-end;
+					width: 100upx;
+					font-weight: 500;
+				}
+				view:nth-child(3) {
+					display: flex;
+					justify-content: flex-end;
+					width: 150upx;
+					font-weight: 500;
+				}
+				view:nth-child(4) {
+					display: flex;
+					justify-content: flex-end;
+					width: 200upx;
+					font-weight: 500;
+					
+					.tabthree_button_data_{
+						display: flex;
+						justify-content: flex-end;
+						padding-right: 35upx;
+						box-sizing: border-box;
+					}
+				}
+			}
+		}
+		.tabthree_button_header {
+			display: flex;
+			align-items: center;
+			font-size: 26upx;
+			height: 90upx;
+			font-weight: 400;
+			color: rgba(0, 0, 0, 1);
+			padding: 0 38upx;
+			view:nth-child(1) {
+				color: #0091ff;
+				font-size: 26upx;
+				width: 250upx;
+			}
+			view:nth-child(2) {
+				width: 250upx;
+				text-align: left;
+			}
+			view:nth-child(3) {
+				width: 100upx;
+				text-align: right;
+			}
+			view:nth-child(4) {
+				width: 150upx;
+				text-align: right;
+			}
+			view:nth-child(5) {
+				width: 200upx;
+				text-align: right;
+			}
+		}
+	}
+}

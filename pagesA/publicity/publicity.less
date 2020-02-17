@@ -1,0 +1,114 @@
+page{
+	background:rgba(245,245,245,1);
+}
+.allHeader{
+	// 公用一个
+	width: 100%;
+	.header{
+		height:60upx;
+		width: 750upx;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		background-color: #FFFFFF;
+		view{
+			width: 50%;
+			font-size:28upx;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			text{
+				display: inline-block;
+				height: 60upx;
+				line-height: 60upx;
+			}
+		}
+		.activ{
+			color:rgba(240,142,45,1);
+			border-bottom: 2upx solid rgba(240,142,45,1);
+		}
+	}
+	.center{
+		image{
+			width: 28upx;
+			height: 28upx;
+			padding-right: 10upx;
+		}
+		height: 48upx;
+		
+		// line-height: 48upx;
+		display:flex;
+		align-items: center;
+		font-size:20upx;
+		font-weight:400;
+		color:rgba(240,142,45,1);
+		padding-left: 31upx;
+	}
+	.footer{
+		width: 100%;
+		background-color: #fff;
+	
+		.footer_view{
+			height: 220upx;
+			padding-top: 27upx ;
+			margin: 0 43upx 0upx 27upx;
+			display: flex;
+			flex-wrap: wrap;
+			//  ;
+			border-bottom: 1px solid rgba(245,245,245,1);
+			box-sizing: border-box;
+			.footer_img{
+				image{
+					width: 116upx;
+					height: 164upx;
+				}
+			}
+			.footer_tow{
+				width: 75%;
+				padding-left: 30upx;
+				.footer_name{
+					// width: 100%;
+					font-weight:600;
+					color:rgba(0,0,0,1);
+					font-size:28upx;
+				}
+				.footer_type{
+					display: flex;
+					justify-content:space-between;
+					padding-top: 10upx;
+					view:nth-child(1){
+						font-size:24upx;
+						font-family:PingFangSC-Regular;
+						font-weight:400;
+						color:rgba(74,74,74,1);
+					}
+					view:nth-child(2){
+						font-size:28upx;
+						width: 96upx;
+						text-align: center;
+						font-family:PingFangSC-Semibold;
+						font-weight:600;
+						color:rgba(240,142,45,1);
+					}
+				}
+				.footer_item{
+					display: flex;
+					justify-content:space-between;
+					view:nth-child(1){
+						font-size:24upx;
+						font-family:PingFangSC-Regular;
+						font-weight:400;
+						color:rgba(74,74,74,1);
+					}
+					view:nth-child(2){
+						font-size:24upx;
+						font-family:PingFangSC-Medium;
+						font-weight:500;
+						color:rgba(74,74,74,1);
+					}
+				}
+			}
+		}
+		
+	}
+}

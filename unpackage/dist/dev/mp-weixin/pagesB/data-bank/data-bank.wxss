@@ -1,0 +1,233 @@
+page {
+  background: #f5f5f5;
+}
+.bottom {
+  background: #fff;
+}
+.bottom .bottom_header {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  padding: 30rpx 0 30rpx 0rpx;
+  margin: 0 18rpx;
+  border-bottom: 2rpx solid #DBD9DC;
+}
+.bottom .bottom_header:nth-child(1) {
+  margin-top: 10rpx;
+}
+.bottom .bottom_header:last-child {
+  border-bottom: 0;
+}
+.bottom .bottom_header .image_data {
+  width: 114rpx;
+  height: 162rpx;
+}
+.bottom .bottom_header .bottom_data_dd {
+  width: 100% !important;
+}
+.bottom .bottom_header .bottom_data,
+.bottom .bottom_header .bottom_data_dd {
+  width: 600rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+}
+.bottom .bottom_header .bottom_data .bottom_name_tow .three,
+.bottom .bottom_header .bottom_data_dd .bottom_name_tow .three,
+.bottom .bottom_header .bottom_data .bottom_name_tow .one,
+.bottom .bottom_header .bottom_data_dd .bottom_name_tow .one,
+.bottom .bottom_header .bottom_data .bottom_name_tow .tow,
+.bottom .bottom_header .bottom_data_dd .bottom_name_tow .tow {
+  padding-top: 6rpx;
+}
+.bottom .bottom_header .bottom_data .bottom_name_tow .three,
+.bottom .bottom_header .bottom_data_dd .bottom_name_tow .three {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+          justify-content: flex-end;
+  font-size: 24rpx;
+  color: red;
+}
+.bottom .bottom_header .bottom_data .bottom_name_tow .one,
+.bottom .bottom_header .bottom_data_dd .bottom_name_tow .one {
+  display: -webkit-flex;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+          justify-content: flex-end;
+  width: 100%;
+  color: #F08E2D;
+  font-size: 30rpx;
+  font-weight: 600;
+}
+.bottom .bottom_header .bottom_data .bottom_name_tow .tow,
+.bottom .bottom_header .bottom_data_dd .bottom_name_tow .tow {
+  display: -webkit-flex;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+          justify-content: flex-end;
+  width: 100%;
+  color: #4A4A4A;
+  font-size: 24rpx;
+}
+.bottom .bottom_header .bottom_data .bottom_zy_paddingTop,
+.bottom .bottom_header .bottom_data_dd .bottom_zy_paddingTop {
+  padding-top: 40rpx;
+}
+.bottom .bottom_header .bottom_data .bottom_gs_paddingTop,
+.bottom .bottom_header .bottom_data_dd .bottom_gs_paddingTop {
+  padding-top: 80rpx;
+}
+.bottom .bottom_header .bottom_data .bottom_name,
+.bottom .bottom_header .bottom_data_dd .bottom_name {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  width: 414rpx;
+  -webkit-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-box-align: space-between;
+  -webkit-align-items: space-between;
+          align-items: space-between;
+  padding: 0 30rpx 0 0;
+  box-sizing: border-box;
+}
+.bottom .bottom_header .bottom_data .bottom_name .bottom_name_tow_data,
+.bottom .bottom_header .bottom_data_dd .bottom_name .bottom_name_tow_data {
+  width: 100%;
+}
+.bottom .bottom_header .bottom_data .bottom_name .bottom_name_tow_data .bottom_zy,
+.bottom .bottom_header .bottom_data_dd .bottom_name .bottom_name_tow_data .bottom_zy {
+  padding-top: 20rpx;
+}
+.bottom .bottom_header .bottom_data .bottom_name .bottom_name_tow_data .bottom_zy,
+.bottom .bottom_header .bottom_data_dd .bottom_name .bottom_name_tow_data .bottom_zy,
+.bottom .bottom_header .bottom_data .bottom_name .bottom_name_tow_data .bottom_init,
+.bottom .bottom_header .bottom_data_dd .bottom_name .bottom_name_tow_data .bottom_init,
+.bottom .bottom_header .bottom_data .bottom_name .bottom_name_tow_data .bottom_time,
+.bottom .bottom_header .bottom_data_dd .bottom_name .bottom_name_tow_data .bottom_time {
+  font-size: 24rpx;
+  padding-left: 30rpx;
+  font-family: PingFangSC;
+  font-weight: 400;
+  color: #4a4a4a;
+}
+.bottom .bottom_header .bottom_data .bottom_name .bottom_name_one,
+.bottom .bottom_header .bottom_data_dd .bottom_name .bottom_name_one {
+  width: 100%;
+  padding-left: 30rpx;
+  font-size: 28rpx;
+  font-family: PingFangSC;
+  font-weight: 500;
+  color: #000000;
+}
+.bottom .bottom_header .bottom_data .bottom_name .bottom_name_one image,
+.bottom .bottom_header .bottom_data_dd .bottom_name .bottom_name_one image {
+  width: 37rpx;
+  height: 27rpx;
+  padding-right: 8rpx;
+}
+.bottom .bottom_header .bottom_data .bottom_init,
+.bottom .bottom_header .bottom_data_dd .bottom_init,
+.bottom .bottom_header .bottom_data .bottom_time,
+.bottom .bottom_header .bottom_data_dd .bottom_time {
+  padding-top: 4rpx;
+}
+.header {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  height: 60rpx;
+  width: 750rpx;
+  background-color: #FFFFFF;
+}
+.header view {
+  width: 33%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  font-size: 28rpx;
+  font-family: PingFangSC;
+  font-weight: 400;
+  color: #212121;
+}
+.header view text {
+  display: inline-block;
+  height: 50rpx;
+  line-height: 50rpx;
+}
+.header .active {
+  color: #f08e2d;
+  border-bottom: 2rpx solid #f08e2d;
+}
+.tabone,
+.tabtow {
+  min-height: 300rpx;
+  box-sizing: border-box;
+  padding: 0rpx 0 0rpx 18rpx;
+  background: #fff;
+  color: #8E8E8E;
+  font-size: 26rpx;
+}
+.tabone .tabone_data,
+.tabtow .tabone_data {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  background: #fff;
+  border-bottom: 2rpx solid #EEEEEE;
+}
+.tabone .tabone_data .tabone_title,
+.tabtow .tabone_data .tabone_title {
+  width: 100rpx;
+}
+.tabone .tabone_data .tabone_title view,
+.tabtow .tabone_data .tabone_title view {
+  height: 75rpx;
+  width: 60rpx;
+  line-height: 75rpx;
+}
+.tabone .tabone_data .tabone_conter scroll-view,
+.tabtow .tabone_data .tabone_conter scroll-view {
+  display: -webkit-box;
+  display: flex;
+  display: -webkit-flex;
+  white-space: nowrap;
+  width: 655rpx;
+}
+.tabone .tabone_data .tabone_conter scroll-view .pickeraa,
+.tabtow .tabone_data .tabone_conter scroll-view .pickeraa {
+  display: inline-block;
+}
+.tabone .tabone_data .tabone_conter scroll-view view,
+.tabtow .tabone_data .tabone_conter scroll-view view {
+  display: inline-block;
+  height: 75rpx;
+  line-height: 75rpx;
+  padding: 0rpx 30rpx;
+}
+.tabtow .tabone_title {
+  width: 125rpx !important;
+}
+.tabtow .tabone_title view {
+  width: 125rpx !important ;
+}
+.tabtow scroll-view {
+  width: 590rpx !important;
+}
+

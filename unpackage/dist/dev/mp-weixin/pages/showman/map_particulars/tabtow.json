@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "bo-office": "/pages/showman/map_particulars/tabtow/bo_office",
+    "walkthrough-presell": "/pages/showman/map_particulars/tabtow/walkthrough_presell",
+    "business-trend": "/pages/showman/map_particulars/tabtow/Business_trend",
+    "watch-hobby": "/pages/showman/map_particulars/tabtow/watch_hobby"
+  }
+}

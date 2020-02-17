@@ -1,0 +1,268 @@
+/*  头部  tab*/
+.Data_select_header {
+	display: flex;
+	view {
+		width: 25%;
+		flex-direction: row;
+		background: #fff;
+		height: 70upx;
+		line-height: 70upx;
+		text-align: center;
+		font-size: 36upx;
+		// display: flex;
+		// align-items: center;
+	}
+	.active {
+		color: #dc2626;
+	}
+}
+/* 头部tab */
+/* nian */
+.only_year {
+	background: #fff;
+	height: 74upx;
+	line-height: 74upx;
+	border: 1px solid #e6e6e6;
+	padding-left: 20upx;
+	box-sizing: border-box;
+	border-bottom: none;
+}
+/* nian */
+/* 月css */
+.month .year_sel {
+	width: 180upx;
+	text-align: center;
+}
+
+.month .year_sel view {
+	height: 70upx;
+	line-height: 70upx;
+	border: 1px solid #e6e6e6;
+	border-left: none;
+	border-right: none;
+}
+.month .month_sel {
+	flex: 1;
+	background: #fff;
+}
+
+.month_sel view {
+	padding-left: 20upx;
+	box-sizing: border-box;
+	height: 74upx;
+	line-height: 74upx;
+	border: 1px solid #e6e6e6;
+}
+
+.week .year_sel {
+	width: 180upx;
+	text-align: center;
+}
+
+.week .year_sel view {
+	height: 70upx;
+	line-height: 7upx;
+	border: 1px solid #e6e6e6;
+	border-left: none;
+	border-right: none;
+}
+
+.year_sel .active {
+	background: #fff;
+	color: red;
+}
+/* 月css 结束 */
+.week,
+.month {
+	display: -webkit-flex;
+	/* Safari */
+	display: flex;
+	flex-direction: row;
+}
+
+.week .year_sel {
+	width: 180upx;
+	text-align: center;
+}
+
+.week .year_sel view {
+	height: 70upx;
+	line-height: 70upx;
+	border: 1px solid #e6e6e6;
+	border-left: none;
+	border-right: none;
+}
+
+.week .week_sel {
+	flex: 1;
+	background: #fff;
+}
+
+.week_sel view {
+	padding-left: 20upx;
+	box-sizing: border-box;
+	height: 74upx;
+	line-height: 74upx;
+	border: 1px solid #e6e6e6;
+}
+
+.month .year_sel {
+	width: 180upx;
+	text-align: center;
+}
+
+.month .year_sel view {
+	height: 70upx;
+	line-height: 70upx;
+	border: 1px solid #e6e6e6;
+	border-left: none;
+	border-right: none;
+}
+
+.year_sel .active {
+	background: #fff;
+	color: red;
+}
+
+.time_tab .active {
+	color: red;
+}
+
+
+
+// 日历样式 
+/*  头部  tab*/
+.Data_select {
+	height: 1354upx;
+	width: 750upx;
+	background-color: #fff;
+	position: fixed;
+	// top: 50px;
+	z-index: 10000;
+	.cha{
+		display: flex;
+		justify-content: flex-end;
+		margin-right: 40upx;
+	}
+}
+.Data_select scroll-view{
+	height: 100%;
+	background: #fff;
+
+}
+.only_year {
+	background: #fff;
+	height: 74upx;
+	line-height: 74upx;
+	border: 1px solid #e6e6e6;
+	padding-left: 20upx;
+	box-sizing: border-box;
+	border-bottom: none;
+}
+.Data_select {
+	height: 1354upx;
+	width: 750upx;
+	background-color: #fff;
+	position: fixed;
+	// top: 50px;
+	z-index: 10000;
+}
+.Data_select_header {
+	display: flex;
+	view {
+		width: 25%;
+		flex-direction: row;
+		background: #fff;
+		height: 70upx;
+		line-height: 70upx;
+		text-align: center;
+		font-size: 36upx;
+		// display: flex;
+		// align-items: center;
+	}
+	.active {
+		color: #dc2626;
+	}
+}
+.week .year_sel {
+	width: 180upx;
+	text-align: center;
+}
+
+.week .year_sel view {
+	height: 70upx;
+	line-height: 7upx;
+	border: 1px solid #e6e6e6;
+	border-left: none;
+	border-right: none;
+	scroll-view{
+		height:100%;
+		background-color: 100%;
+	}
+}
+.year_sel .active {
+	background: #fff;
+	color: red;
+}
+.week,
+.month {
+	display: -webkit-flex;
+	/* Safari */
+	display: flex;
+	flex-direction: row;
+}
+.week .year_sel {
+	width: 180upx;
+	text-align: center;
+}
+
+.week .year_sel view {
+	height: 70upx;
+	line-height: 70upx;
+	border: 1px solid #e6e6e6;
+	border-left: none;
+	border-right: none;
+}
+
+.week .week_sel {
+	flex: 1;
+	background: #fff;
+}
+
+.week_sel view {
+	padding-left: 20upx;
+	box-sizing: border-box;
+	height: 74upx;
+	line-height: 74upx;
+	border: 1px solid #e6e6e6;
+}
+.month .year_sel {
+	width: 180upx;
+	text-align: center;
+}
+
+.month .year_sel view {
+	height: 70upx;
+	line-height: 70upx;
+	border: 1px solid #e6e6e6;
+	border-left: none;
+	border-right: none;
+}
+.year_sel .active {
+	background: #fff;
+	color: red;
+}
+.month .month_sel {
+	flex: 1;
+	background: #fff;
+}
+
+.month_sel view {
+	padding-left: 20upx;
+	box-sizing: border-box;
+	height: 74upx;
+	line-height: 74upx;
+	border: 1px solid #e6e6e6;
+}
+
+// 日历样式结束
